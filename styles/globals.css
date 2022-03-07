@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: "Gotham";
+    background: #EEEBEB;
+}
+.hero {
+   background:url("/images/hero-bg.png");
+    background-color:rgba(57, 60, 84, 0.59);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+@media  screen and (min-width:768px) {
+    .hero{
+        background: none;
+    }
+}
