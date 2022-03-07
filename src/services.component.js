@@ -6,7 +6,7 @@ const SComponent = ({service}) =>{
         <div>
             <h2></h2>
             <div>
-                <div className="grid grid-cols-3">
+                <div className="grid grid-gap-4 grid-cols-1 md:grid-cols-3">
                     {service.services.map(item => (
                         <div className="bg-[#40435C] my-10 w-11/12 mx-auto max-w-lg p-6">
                             <img src={item.image} alt="services" className="w-full "/>

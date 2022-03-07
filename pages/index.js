@@ -7,7 +7,7 @@ import SComponent from "../src/services.component";
 
 
 const Hello = ({home}) => {
-  return <>
+  return <div className="w-full">
     <Nav home={home} />
     <Header header={home} />
     <Expertise expert={home} />
@@ -15,7 +15,7 @@ const Hello = ({home}) => {
     {/* ***Footer remain footer** */}
     <Footer footer={home}/>
    
-   </>;
+   </div>;
 }
 
 export default Hello
