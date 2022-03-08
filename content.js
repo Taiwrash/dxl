@@ -59,13 +59,13 @@ export const  about = {
         leads:[{
             name: "TOYIN OLONITERU",
             position: "Director",
-            img: "/images/leader2",
+            img: "/images/leader1.png",
             linkedin: ""
         },
         {
             name: "TOYIN OLONITERU",
             position: "Director",
-            img: "/images/leader2",
+            img: "/images/leader2.png",
             linkedin: ""
         }
     ]

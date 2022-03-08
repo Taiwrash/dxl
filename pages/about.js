@@ -1,11 +1,13 @@
 import {home} from "../content"
+import {about} from "../content"
+import CAbout from "../src/about";
 import Footer from "../src/footer";
 import Nav from "../src/nav";
 
-const About = ({home}) =>{
+const About = ({home, about}) =>{
     return <>
      <Nav home={home}/>
-     <h1 className="h-96 text-7xl">About Page is coming soon</h1>
+     <CAbout about={about} />
      <Footer footer={home} />
     </>
 }
@@ -14,6 +16,6 @@ export default About
 
 export function getStaticProps(){
     return {
-        props: {home}
+        props: {home, about}
     }
 }

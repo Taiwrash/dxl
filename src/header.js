@@ -45,8 +45,10 @@ const Header = ({header}) =>{
                     <option className="text-2xl" value="date">Wed, Oct 13, 2021</option>
                 </select>
                 </div>
-              
-                <Button>Book Now</Button>
+               <div className="pl-8">
+                   <Button>Book Now</Button>
+                </div>
+                
             </form>
         </div>
         </div>
