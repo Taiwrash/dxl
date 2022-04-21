@@ -20,9 +20,22 @@ body {
 }
 .card:nth-child(even){
     flex-direction: row-reverse;
+    margin-left: 50px;
+}
+.card:nth-child(even) img{
+    left: -4rem;
 }
 @media  screen and (min-width:768px) {
     .hero{
         background: none;
+    }
+}
+@media  screen and (max-width:768px) {
+    .card:nth-child(even){
+        flex-direction: column;
+    }
+
+    .card:nth-child(even) img{
+        margin-left: 50px;
     }
 }

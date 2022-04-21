@@ -15,15 +15,15 @@ const CServices = ({services}) => {
         <div className="mt-32 ">
             {
             services.service.map(services=>(
-                <div className="card flex md:m-12 max-w-full md:mt-32">
-                <div className="md:w-1/2  md:m-10 h-3/4 md:pl-12 md:pb-12 bg-gradient-to-l from-[#7BC5A0] via-[#42929D] to-[#42929D]">
+                <div className="card flex flex-col md:flex-row m-12 max-w-full md:mt-32">
+                <div className="w-full my-12 md:w-1/2 h-3/4 md:pl-12 md:pb-12 bg-gradient-to-l from-[#7BC5A0] via-[#42929D] to-[#42929D]">
                     <div className="img-bg ">
-                        <img src={services.img} alt={services.title} className="relative md:h-80 bottom-2 left-2 md:w-full" />
+                        <img src={services.img} alt={services.title} className="relative bottom-6 left-6 md:h-80 md:bottom-2 md:left-2 w-full" />
                     </div>
                 </div>
-                <div className="md:w-1/2 md:m-10 service-contents ">
-                    <h2 className="font-extrabold text-3xl md:mb-4 font-sans">{services.title}</h2>
-                    <p className="text-lg font-serif font-bold text-gray-500">{services.subtitle}</p>
+                <div className="w-3/4  md:w-1/2 md:m-10 service-contents ">
+                    <h2 className="text-2xl font-extrabold md:text-3xl  mb-4 font-sans">{services.title}</h2>
+                    <p className="text-sm md:text-lg font-serif font-bold text-gray-500">{services.subtitle}</p>
                 </div>
             </div>
             ))
