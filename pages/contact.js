@@ -1,11 +1,13 @@
-import {home} from "../content"
+import {home, contacts} from "../content"
+import CContact from "../src/contact";
 import Footer from "../src/footer";
 import Nav from "../src/nav";
 
-const Contact = ({home}) =>{
+const Contact = ({home, contacts}) =>{
+    console.log(contacts);
     return <>
      <Nav home={home}/>
-     <h1 className="h-96 text-7xl">Contact Page is coming soon</h1>
+     <CContact contact={contacts}/>
      <Footer footer={home} />
     </>
 }
@@ -14,6 +16,6 @@ export default Contact
 
 export function getStaticProps(){
     return {
-        props: {home}
+        props: {home,contacts}
     }
 }

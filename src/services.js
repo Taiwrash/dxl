@@ -21,7 +21,7 @@ const CServices = ({services}) => {
                         <img src={services.img} alt={services.title} className="relative bottom-6 left-6 md:h-80 md:bottom-2 md:left-2 w-full" />
                     </div>
                 </div>
-                <div className="w-3/4  md:w-1/2 md:m-10 service-contents ">
+                <div className="w-3/4  md:w-1/2 md:m-20 service-contents ">
                     <h2 className="text-2xl font-extrabold md:text-3xl  mb-4 font-sans">{services.title}</h2>
                     <p className="text-sm md:text-lg font-serif font-bold text-gray-500">{services.subtitle}</p>
                 </div>

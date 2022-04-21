@@ -7,7 +7,7 @@ export const home = {
     navItems:[
         {name:"Home", url:"/"}, 
         {name:"About Us", url:"/about"}, 
-        {name:"Services", url:"/services"}, 
+        {name:"Platform & Services", url:"/services"}, 
         {name:"Contact", url:"/contact"}, 
     ],
     consultation:{
@@ -127,12 +127,14 @@ export const contacts = {
         subtitle: "Trying to get in contact with DXL?, here is our contact infromation and contact address.",
         cta: "Get in touch",
     },
+  
     address: {
+        img: "/images/crypto.png",
         location: "Ikeja Office",
         fullAddress: "23, Tokunbo Ali Street (2nd Floor) Off Toyin Street, Ikeja Lagos.",
         phone: "+234 80 6057 5282,+234 81 8615 1117",
         email: "digitalextraltd2014@gmail.com",
-        mailIcon: "mail.svg",
-        phoneIcon: "call.svg"
+        mailIcon: "/images/mail.svg",
+        phoneIcon: "/images/call.svg"
     }
 }
