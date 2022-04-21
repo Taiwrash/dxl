@@ -14,9 +14,9 @@ const Header = ({header}) =>{
         <div>
         <div className="hero h-screen md:flex md:mt-10" >
             <div className="flex items-center justify-center text-center md:text-left flex-col text-white bg-[#40435C] h-full opacity-40 md:opacity-100 md:w-1/2 md:bg-[#EEEBEB]">
-                <h1 className="text-4xl p-4 text-center w-10/12 font-bold max-w-xl md:text-[#000000] md:text-left">{header.header.title}</h1>
+                <h1 className="text-4xl p-4 text-center w-10/12 font-bold max-w-xl md:text-[#000000] md:text-left ">{header.header.title}</h1>
                 <p className="text-center text-white px-10 md:pl-12 md:px-0 text-lg md:text-[#646975] md:text-left md:w-full">{text}</p>
-                <a onClick={handleMore} className="text-[#00D1FF] md:mb-10" >Read {more ? "Less" : "More"}  </a>
+                <a onClick={handleMore} className="text-[#00D1FF] md:mb-10 cursor-pointer" >Read {more ? "Less" : "More"}  </a>
 
             </div>
             <div className=" hidden md:flex md:items-left  md:w-full md:justify-end">
@@ -34,7 +34,7 @@ const Header = ({header}) =>{
                 </div>
              
                 <div>
-                <label className="text-gray-400 font-semibold">Services  </label> <br/>
+                <label className="text-gray-400 font-semibold">Services</label> <br/>
                 <select>
                     <option value="Crypto">Crypto Currency</option>
                 </select>

@@ -7,8 +7,8 @@ import {XCircle, Menu} from "react-feather";
 const Nav = ({home}) => {
     const [open, setOpen] = useState(false);
     return <>
-        <div>
-            <nav className="md:flex bg-white md:justify-between md:p-6 items-center shadow-lg">
+        <div className="fixed w-full z-40">
+            <nav className="md:flex md:bg-fixed bg-white md:justify-between md:p-6 items-center shadow-lg">
                 <div className="flex justify-between" >
                     <Link href="/">
                     <a className=" flex text-xl font-Gotham font-bold items-center">

@@ -1,11 +1,13 @@
 import Nav from "../src/nav"
+import {services} from '../content'
 import {home} from "../content"
 import Footer from "../src/footer"
+import CServices from "../src/services"
 
-const Services = ({home}) =>{
+const Services = ({home, services}) =>{
     return <div className="flex flex-col h-screen justify-between">
     <Nav home={home}/>
-    <h1 className="h-96 text-7xl">Services Page is coming soon</h1>
+    <CServices services={services} />
     <Footer footer={home} />
     </div>
     
@@ -14,6 +16,6 @@ const Services = ({home}) =>{
 export default Services
 export function getStaticProps(){
     return {
-        props: {home}
+        props: {home,  services}
     }
 }

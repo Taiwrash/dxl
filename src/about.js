@@ -1,15 +1,14 @@
 import Button from "./button";
 
 const CAbout = ({about}) => {
-    console.log(about);
     return <>
         <div>
-            <div>
-                <div className="bg-[#40435C] py-12 px-2 flex flex-col justify-center items-center text-white">
+            <div className="pt-32">
+                <div className="bg-[#40435C] py-12 px-2 flex flex-col justify-center items-center text-white p-32 ">
                     <h1 className="text-5xl w-11/12 text-center mb-10">{about.header.title}</h1>
                     <p className="text-6 w-11/12 text-center font-bold">{about.header.subtitle}</p>
                 </div>
-                <div className="w-full ">
+                <div className="w-full">
                     <img className="object-contain" src={about.header.image} alt="about header" />
                 </div>
             </div>
@@ -20,7 +19,6 @@ const CAbout = ({about}) => {
                     <button className="mb-20 md:mb-0  bg-gradient-to-l from-[#7BC5A0] via-[#42929D] to-[#42929D]  text-gray-100 font-bold w-3/4 md:w-2/3 text-xs hover:text-gray-200 p-3  text-center px-8 md:px-8">
                     {about.leaders.cta}
                      </button>
-
                 </div>
                 <div>
                     <div className="flex pl-6 flex-wrap
@@ -38,7 +36,6 @@ const CAbout = ({about}) => {
                             </div>
                         ))}
                     </div>
-                    
                 </div>
             </div>
         </div>

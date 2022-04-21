@@ -92,6 +92,31 @@ export const services = {
             title: "Project Outsourcing",
             subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa sagittis, viverra adipiscing lacinia. Dolor consectetur arcu rutrum elementum, sed. Netus id vitae sed metus. Ornare vitae egestas dictum netus montes, congue. Elit gravida ipsum gravida in nisl arcu est cursus egestas.",
             img: "/images/outsourcing.png"
+        },
+        {
+            title: "Web Design, Implementation and Support",
+            subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa sagittis, viverra adipiscing lacinia. Dolor consectetur arcu rutrum elementum, sed. Netus id vitae sed metus. Ornare vitae egestas dictum netus montes, congue. Elit gravida ipsum gravida in nisl arcu est cursus egestas.",
+            img: "/images/outsourcing.png"
+        },
+        {
+            title: "Products and Solutions",
+            subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa sagittis, viverra adipiscing lacinia. Dolor consectetur arcu rutrum elementum, sed. Netus id vitae sed metus. Ornare vitae egestas dictum netus montes, congue. Elit gravida ipsum gravida in nisl arcu est cursus egestas.",
+            img: "/images/outsourcing.png"
+        },
+        {
+            title: "Penetration Testing",
+            subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa sagittis, viverra adipiscing lacinia. Dolor consectetur arcu rutrum elementum, sed. Netus id vitae sed metus. Ornare vitae egestas dictum netus montes, congue. Elit gravida ipsum gravida in nisl arcu est cursus egestas.",
+            img: "/images/outsourcing.png"
+        },
+        {
+            title: "Software Reliability Testing",
+            subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa sagittis, viverra adipiscing lacinia. Dolor consectetur arcu rutrum elementum, sed. Netus id vitae sed metus. Ornare vitae egestas dictum netus montes, congue. Elit gravida ipsum gravida in nisl arcu est cursus egestas.",
+            img: "/images/outsourcing.png"
+        },
+        {
+            title: "Standards and Certifications",
+            subtitle: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa sagittis, viverra adipiscing lacinia. Dolor consectetur arcu rutrum elementum, sed. Netus id vitae sed metus. Ornare vitae egestas dictum netus montes, congue. Elit gravida ipsum gravida in nisl arcu est cursus egestas.",
+            img: "/images/outsourcing.png"
         }
     ]
 }
