@@ -8,7 +8,9 @@ export const home = {
         {name:"Home", url:"/"}, 
         {name:"About Us", url:"/about"}, 
         {name:"Platform & Services", url:"/services"}, 
+        {name:"DXL Groups", url:"/groups"}, 
         {name:"Contact", url:"/contact"}, 
+        {name:"Blog", url:"/blog"}, 
     ],
     consultation:{
         heading: "Book Your Consultation",
@@ -41,7 +43,7 @@ export const home = {
         title:"Excellent Service by prioritizing client interests",
         fb: "/images/fb.svg",
         linkedin: "/images/linkedin.svg",
-        navItems:["Home", "About Us", "Services", "News", "DXL UK", "Terms and conditions", "Privacy", "Privacy Policy"]
+        navItems:["Home", "About Us", "Platform & Services", "DXL Groups", "News", "DXL UK", "Terms and conditions", "Privacy", "Privacy Policy"]
     }
 }
 
@@ -138,3 +140,74 @@ export const contacts = {
         phoneIcon: "/images/call.svg"
     }
 }
+
+export const blogs = {
+    header:{
+        title: "DXL Blog",
+        subtitle: "",
+        img: "/"
+    },
+    rating:{
+        top: "Top Articles",
+        new:"New"
+    },
+    content:[{
+        topic: "Blockchain Security",
+        body: "Security is the most important factor for any blockchain protocol to establish a trustless environment. Millions of datasets are exchanged through blockchain technology – often in a transparent public ledger. The value of blockchain is based on immutability of records and resulting trust in the truth of records. Cryptography, consensus, governance, and many other factors have an impact on core blockchain security. Privacy of users, legal and operational impact must also be considered to build sustainable, scalable and compliant applications.",
+        img: ""
+    },
+    {
+       topic: "Blockchain & Decentralization",
+       body: "Decentralization is important to create a secure, non-discriminatory system. Instead of relying on a central authority to transfer values to others, blockchain utilizes a peer to peer network and consensus algorithms to validate transactions and record data. A permissionless public network should aim for architectural, political and logical decentralization.",
+       img: ""
+    },
+    {
+        topic: "Blockchain & Cryptography",
+        body: "Cryptography is a key part of blockchain technology and used in various ways. Public-key encryption is used for blockchain wallets and transactions, cryptographic hashes link each block to the previous block, and Merkle trees organize transactions. Among other things, secret sharing algorithms and zero-knowledge proofs are currently investigated and highly relevant for blockchain and Web 3 apps. ",
+        img: ""
+     },
+     {
+        topic: "Blockchain Scalability",
+        body: "",
+        img: ""
+     },
+     {
+        topic: "Blockchain Consensus",
+        body: "",
+        img: ""
+     }, 
+     {
+        topic: "Token Economics",
+        body: "",
+        img: ""
+     },
+     {
+        topic: "Token Smart Contracts",
+        body: "",
+        img: ""
+     },
+]
+}
+
+export const groups = [{
+    title: "DXL Groups",
+    members: ['']
+},
+{
+    title: "DXL soft",
+    members: ['']
+},{
+    title: "DXL Technologies",
+    members: ['']
+},{
+    title: "DXL Geospatial",
+    members: ['']
+},
+{
+    title: "DXL Education Services Group(ESG)",
+    members: ['']
+},{
+    title: "Public Interest Technology Group(DXL-PIT)",
+    members: ['']
+},
+]
