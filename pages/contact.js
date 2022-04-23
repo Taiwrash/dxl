@@ -4,7 +4,6 @@ import Footer from "../src/footer";
 import Nav from "../src/nav";
 
 const Contact = ({home, contacts}) =>{
-    console.log(contacts);
     return <>
      <Nav home={home}/>
      <CContact contact={contacts}/>

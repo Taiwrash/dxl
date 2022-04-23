@@ -21,9 +21,9 @@ const Nav = ({home}) => {
                     </div>                
                 </div>
                   <div>
-                  <ul className={`z-10 md:flex md:justify-between md:w-full md:static absolute mt-4 text-center bg-[#40435C] w-full ${open ? "top-20" : "top-[-490px]"} md:bg-white md:justify-between transition-all duration-500 ease-in`}>
+                  <ul className={`z-10 md:flex md:justify-between md:w-full md:static absolute mt-4 text-center bg-[#40435C] w-full ${open ? "top-[80px]" : "top-[-690px]"} md:bg-white md:justify-between transition-all duration-500 ease-in`}>
                       {home.navItems.map(nav=>(
-                          <li key={nav.url} className="pt-8 pb-8 font-extrabold text-gray-400 hover:text-gray-100 md:pl-10 md:hover:text-[#42929D]">
+                          <li key={nav.url} className="pt-8 pb-8 font-extrabold text-gray-400 hover:text-gray-100 md:pl-10 md:hover:text-[#42929D] top-">
                               <Link href={nav.url}>
                               <a>{nav.name}</a>
                               </Link>
